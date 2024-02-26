@@ -1,0 +1,115 @@
+.bestServis .bestServis-main {
+  max-width: 1169px;
+  margin: 97px auto 0;
+  display: flex;
+}
+.bestServis .bestServis-main .bestServis-left {
+  flex: 2;
+  width: 100%;
+}
+.bestServis .bestServis-main .bestServis-left .bestServis-tittle h3 {
+  font-size: 40px;
+}
+.bestServis .bestServis-main .bestServis-left .bestServis-info {
+  display: flex;
+  flex-direction: column;
+}
+.bestServis .bestServis-main .bestServis-left .bestServis-info .info-left p {
+  font-size: 16px;
+  color: #3D3D3F;
+  line-height: 1.6;
+  margin: 16px 0 24px;
+  max-width: 92%;
+}
+.bestServis .bestServis-main .bestServis-left .bestServis-info .info-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bestServis .bestServis-main .bestServis-left .bestServis-info .info-right p {
+  font-size: 16px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+.bestServis .bestServis-main .bestServis-left .bestServis-info .info-right p span {
+  background-color: #27386E;
+  border-radius: 50%;
+  color: white;
+  font-size: 8px;
+  padding: 5px 5px;
+  margin-right: 18px;
+}
+.bestServis .bestServis-main .bestServis-right img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1140px) {
+  .bestServis .bestServis-main {
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .bestServis .bestServis-main .bestServis-left {
+    flex: 3.08;
+    width: 100%;
+  }
+  .bestServis .bestServis-main .bestServis-left .bestServis-tittle h3 {
+    font-size: 28px;
+  }
+  .bestServis .bestServis-main .bestServis-left .bestServis-info .info-left p {
+    font-size: 16px;
+    line-height: 1.3;
+    max-width: 100%;
+  }
+  .bestServis .bestServis-main .bestServis-left .bestServis-info .info-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bestServis .bestServis-main .bestServis-left .bestServis-info .info-right p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .bestServis .bestServis-main .bestServis-left .bestServis-info .info-right p span {
+    margin-right: 15px;
+  }
+  .bestServis .bestServis-main .bestServis-right {
+    flex: 2;
+    width: 40%;
+  }
+  .bestServis .bestServis-main .bestServis-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .bestServis .bestServis-main {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+  .bestServis .bestServis-main .bestServis-tittle h3 {
+    font-size: 14px;
+    margin: 0 auto 15px;
+  }
+  .bestServis .bestServis-main .bestServis-info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .bestServis .bestServis-main .bestServis-info .info-left p {
+    font-size: 9px;
+    line-height: 1.4;
+  }
+  .bestServis .bestServis-main .bestServis-info .info-right p {
+    font-size: 8px;
+    line-height: 2;
+  }
+  .bestServis .bestServis-main .bestServis-info .info-right p span {
+    font-size: 4px;
+    margin-right: 5px;
+    padding: 3px;
+  }
+}
+
+/*# sourceMappingURL=best-servis.css.map */

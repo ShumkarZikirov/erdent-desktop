@@ -1,0 +1,168 @@
+.doctors-main {
+  max-width: 1169px;
+  margin: 140px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+.doctors-main__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.doctors-main__title h1 {
+  font-size: 48px;
+  color: #27386E;
+}
+.doctors-main__title p {
+  font-size: 16px;
+  max-width: 640px;
+  text-align: center;
+}
+.doctors-main__doctors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 50px 0;
+}
+.doctors-main__doctors-block {
+  max-width: 255px;
+  border: 1px solid #C9C9C9;
+  max-height: 350px;
+  box-shadow: 1px 1px 1px rgba(201, 201, 201, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.doctors-main__doctors-block img {
+  width: 90%;
+  height: 80%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.doctors-main__doctors-block p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1140px) {
+  .doctors-main {
+    width: 90%;
+    margin: 100px auto 0;
+  }
+  .doctors-main__title h1 {
+    font-size: 42px;
+    color: #27386E;
+  }
+  .doctors-main__title p {
+    font-size: 14px;
+    max-width: 640px;
+  }
+  .doctors-main__doctors {
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+  }
+  .doctors-main__doctors-block {
+    max-width: 255px;
+  }
+  .doctors-main__doctors-block img {
+    width: 90%;
+    height: 80%;
+  }
+  .doctors-main__doctors-block p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .doctors-main__doctors-block {
+    max-width: 200px;
+  }
+  .doctors-main__doctors-block p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 761px) {
+  .doctors-main__doctors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  }
+  .doctors-main__doctors-block {
+    max-width: 270px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .doctors-main {
+    width: 95%;
+    margin: 70px auto 0;
+  }
+  .doctors-main__title {
+    gap: 15px;
+  }
+  .doctors-main__title h1 {
+    font-size: 26px;
+    color: #27386E;
+  }
+  .doctors-main__title p {
+    font-size: 10px;
+    max-width: 640px;
+  }
+  .doctors-main__doctors {
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .doctors-main__doctors-block {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    gap: 10px;
+    width: 100%;
+  }
+  .doctors-main__doctors-block img {
+    width: 100%;
+    height: 100%;
+  }
+  .doctors-main__doctors-block p {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .doctors-main {
+    width: 90%;
+  }
+  .doctors-main__title {
+    gap: 10px;
+  }
+  .doctors-main__title h1 {
+    font-size: 23px;
+  }
+  .doctors-main__title p {
+    font-size: 8px;
+  }
+  .doctors-main__doctors {
+    margin: 15px auto 0;
+    width: 90%;
+  }
+  .doctors-main__doctors-block {
+    width: 120px;
+  }
+  .doctors-main__doctors-block p {
+    font-size: 14px;
+    left: 25%;
+  }
+}
+
+/*# sourceMappingURL=us-doctors-main.css.map */

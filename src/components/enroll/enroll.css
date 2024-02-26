@@ -1,0 +1,107 @@
+.enroll-main {
+  width: 86%;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+.enroll-main__title h3, .enroll-main__title h4 {
+  font-size: 36px;
+}
+.enroll-main__title h4 {
+  margin-top: 74px;
+}
+.enroll-main__calendar {
+  margin: 70px auto;
+  border-radius: 20px;
+}
+.enroll-main__calendar .calendar {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+.enroll-main__calendar .calendar .react-calendar__navigation__label {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  background-color: white;
+}
+.enroll-main__calendar .calendar .react-calendar__month-view__days__day {
+  border-radius: 50%;
+  padding: 17px 3px;
+}
+.enroll-main__calendar .calendar .react-calendar__tile--active {
+  background-color: #00F076;
+}
+.enroll-main__info {
+  width: 55%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid #40A3F8;
+}
+.enroll-main__info-icon {
+  font-size: 30px;
+  color: #40A3F8;
+  margin: 0 20px 0 10px;
+}
+.enroll-main__info div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.enroll-main__info div div {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+.enroll-main__info div div span {
+  width: 20px;
+  height: 20px;
+  background-color: #40A3F8;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.enroll-main__info div div p {
+  font-size: 16px;
+}
+.enroll-main__times {
+  width: 55%;
+  margin: 50px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.enroll-main__times div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.enroll-main__times div .enroll-main__times-block {
+  border-radius: 10px;
+  width: 200px;
+  height: 89px;
+  background-color: #f5f5f5;
+}
+.enroll-main .red {
+  background-color: red;
+}
+.enroll-main .yellow {
+  background-color: yellow;
+}
+.enroll-main .blue {
+  background-color: #40A3F8;
+}
+.enroll-main .white {
+  background-color: #C9C9C9;
+}
+
+/*# sourceMappingURL=enroll.css.map */

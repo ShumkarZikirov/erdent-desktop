@@ -1,0 +1,91 @@
+.servicesErdent {
+  margin-top: 40px;
+}
+.servicesErdent__main {
+  max-width: 1169px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+.servicesErdent__main-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.servicesErdent__main-list .main-list-block {
+  display: flex;
+  align-items: center;
+  width: 550px;
+}
+.servicesErdent__main-list .main-list-block div h3 {
+  color: #27386E;
+  font-size: 18px;
+}
+.servicesErdent__main-list .main-list-block div p {
+  color: #27386E;
+  font-size: 13px;
+  margin-top: 12px;
+}
+.servicesErdent__top {
+  margin-bottom: 30px;
+}
+.servicesErdent__top p {
+  text-align: center;
+  margin: 60px 0 16px;
+  font-size: 14px;
+  color: #27386E;
+}
+.servicesErdent__top h3 {
+  text-align: center;
+  color: #27386E;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .servicesErdent {
+    margin-top: 80px;
+  }
+  .servicesErdent__main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+  .servicesErdent__main-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .servicesErdent__main-list .main-list-block {
+    display: flex;
+    align-items: center;
+    max-width: 386px;
+  }
+  .servicesErdent__main-list .main-list-block img {
+    max-width: 67px;
+  }
+  .servicesErdent__main-list .main-list-block div h3 {
+    color: #27386E;
+    font-size: 12px;
+  }
+  .servicesErdent__main-list .main-list-block div p {
+    color: #27386E;
+    font-size: 9px;
+    margin-top: 12px;
+  }
+  .servicesErdent__top {
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+  .servicesErdent__top p {
+    display: none;
+  }
+  .servicesErdent__top h3 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

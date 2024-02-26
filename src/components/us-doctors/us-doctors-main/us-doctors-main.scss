@@ -1,0 +1,187 @@
+.doctors{
+    &-main{
+        max-width: 1169px;
+        margin: 140px auto 0;
+        display: flex;
+        flex-direction: column;
+        &__title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            h1{
+                font-size: 48px;
+                color: #27386E;
+            }
+            p{
+                font-size: 16px;
+                max-width: 640px;
+                text-align: center;
+            }
+        }
+        &__doctors{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 50px 0 ;
+            &-block{
+                max-width: 255px;
+                border: 1px solid #C9C9C9;
+                max-height: 350px;
+                box-shadow: 1px 1px 1px rgba(201, 201, 201, 0.5);
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                img{
+                    width: 90%;
+                    height: 80%;
+                    object-fit: cover;
+                    object-position: top;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1140px){
+    .doctors{
+        &-main{
+            width: 90%;
+            margin: 100px auto 0;
+            &__title{
+
+                h1{
+                    font-size: 42px;
+                    color: #27386E;
+                }
+                p{
+                    font-size: 14px;
+                    max-width: 640px;
+                }
+            }
+            &__doctors{
+                justify-content: center;
+                gap: 40px;
+                margin: 50px 0 ;
+                &-block{
+                    max-width: 255px;
+                    img{
+                        width: 90%;
+                        height: 80%;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 940px){
+    .doctors{
+        &-main{
+            &__doctors{
+                &-block{
+                    max-width: 200px;
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 761px){
+    .doctors{
+        &-main{
+            &__doctors{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+                &-block{
+                    max-width: 270px;
+
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 500px){
+    .doctors{
+        &-main{
+            width: 95%;
+            margin: 70px auto 0;
+            &__title{
+                gap: 15px;
+                h1{
+                    font-size: 26px;
+                    color: #27386E;
+                }
+                p{
+                    font-size: 10px;
+                    max-width: 640px;
+                }
+            }
+            &__doctors{
+                margin: 20px auto 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                &-block{
+                    position: relative;
+                    border: none;
+                    box-shadow: none;
+                    border-radius: 10px;
+                    gap: 10px;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    p{
+                        position: absolute;
+                        bottom: 40px;
+                        text-align: center;
+                        color: white;
+                        font-weight: 700;
+                        font-size: 16px;
+                        left: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 300px){
+    .doctors{
+        &-main{
+            width: 90%;
+            &__title{
+                gap: 10px;
+                h1{
+                    font-size: 23px;
+                }
+                p{
+                    font-size: 8px;
+                }
+            }
+            &__doctors{
+                margin: 15px auto 0;
+                width: 90%;
+                &-block{
+                    width: 120px;
+                    p{
+                        font-size: 14px;
+                        left: 25%;
+                    }
+                }
+            }
+        }
+    }
+}

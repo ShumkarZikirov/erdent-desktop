@@ -1,0 +1,57 @@
+.servicesHeader-main {
+  max-width: 1280px;
+  height: 100vh;
+  background-color: #F1F1F1;
+  margin: 70px auto 200px;
+  position: relative;
+}
+.servicesHeader-main p {
+  color: #27386E;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 96px;
+}
+.servicesHeader-main h2 {
+  color: #27386E;
+  font-size: 60px;
+  text-align: center;
+}
+.servicesHeader-main-block {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 6%;
+  right: 5%;
+}
+.servicesHeader-main-block img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1140px) {
+  .servicesHeader-main {
+    width: 90%;
+    height: 80vh;
+    background-color: #ffffff;
+    margin: 120px auto 40px;
+    position: relative;
+  }
+  .servicesHeader-main p {
+    display: none;
+  }
+  .servicesHeader-main h2 {
+    color: #27386E;
+    font-size: 40px;
+  }
+  .servicesHeader-main-block {
+    position: absolute;
+    top: 30px;
+    left: 6%;
+    right: 5%;
+  }
+  .servicesHeader-main-block img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

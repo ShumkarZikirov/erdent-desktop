@@ -1,0 +1,98 @@
+.servicesErdent{
+    margin-top: 40px;
+    &__main{
+        max-width: 1169px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 80px;
+        &-list{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            .main-list-block{
+                display: flex;
+                align-items: center;
+                width: 550px;
+                div{
+                    h3{
+                        color: #27386E;
+                        font-size: 18px;
+                    }
+                    p{
+                        color: #27386E;
+                        font-size: 13px;
+                        margin-top: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__top{
+        margin-bottom: 30px;
+        p{
+            text-align: center;
+            margin: 60px 0 16px;
+            font-size: 14px;
+            color: #27386E;
+        }
+        h3{
+            text-align: center;
+            color: #27386E;
+            font-size: 36px;
+        }
+    }
+
+
+}
+@media only screen and (max-width: 1140px){
+    .servicesErdent{
+        margin-top: 80px;
+        &__main{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 80px;
+            &-list{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: space-evenly;
+                .main-list-block{
+                    display: flex;
+                    align-items: center;
+                    max-width: 386px;
+                    img{
+                        max-width: 67px;
+                    }
+                    div{
+                        h3{
+                            color: #27386E;
+                            font-size: 12px;
+                        }
+                        p{
+                            color: #27386E;
+                            font-size: 9px;
+                            margin-top: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__top{
+            margin-bottom: 10px;
+            padding-top: 20px;
+            p{
+                display: none;
+            }
+            h3{
+                display: none;
+            }
+        }
+
+
+    }
+}

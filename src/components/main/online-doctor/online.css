@@ -1,0 +1,74 @@
+.onlineDoctor .onlineDoctor-main {
+  max-width: 1169px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-tittle h5 {
+  text-align: center;
+  margin: 63px auto 0;
+  font-size: 42px;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-p p {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(61, 61, 63, 0.7);
+  max-width: 656px;
+  margin: 19px auto 58px;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-doctors {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-doctors div {
+  max-width: 267px;
+  position: relative;
+  max-height: 400px;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-doctors div .doctor {
+  position: relative;
+  bottom: 20px;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-doctors div h6 {
+  position: absolute;
+  left: 50px;
+  top: 280px;
+  font-size: 18px;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-doctors div p {
+  position: absolute;
+  top: 305px;
+  left: 60px;
+  font-size: 14px;
+}
+.onlineDoctor .onlineDoctor-main .onlineDoctor-doctors div div {
+  position: absolute;
+  top: 340px;
+  left: 57px;
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .onlineDoctor .onlineDoctor-main {
+    width: 90%;
+  }
+  .onlineDoctor .onlineDoctor-main .onlineDoctor-tittle h5 {
+    font-size: 42px;
+  }
+  .onlineDoctor .onlineDoctor-main .onlineDoctor-doctors {
+    flex-wrap: nowrap;
+    overflow: auto;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .onlineDoctor {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=online.css.map */

@@ -1,0 +1,86 @@
+.garanty{
+    max-width: 1169px;
+    margin: 166px auto 50px;
+    &-main{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .color{
+            color: #27386E;
+        }
+        .main-div{
+            position: absolute;
+            background-color: #F1F1F1;
+            max-width: 624px;
+            right: 0;
+            padding: 32px;
+            h2{
+                font-size: 36px;
+                margin: 24px 0 16px;
+            }
+            h5{
+                font-size: 18px;
+                color: #2c2b2b;
+                font-weight: 300;
+            }
+            p{
+                font-size: 14px;
+                margin: 20px 0;
+                color: #3D3D3F;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1140px){
+    .garanty{
+        width: 90%;
+        margin: 100px auto 50px;
+        &-main{
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            flex-direction: row;
+            position: static;
+
+            .color{
+                color: #27386E;
+            }
+            &-img{
+                flex: 2;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .main-div{
+                position: static;
+                background-color: #F1F1F1;
+                width: 100%;
+                flex: 2;
+                padding: 0;
+                div{
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    h2{
+                        font-size: 34px;
+                        margin: 24px 0 16px;
+                    }
+                    h5{
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+                    p{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        font-size: 11px;
+                    }
+                }
+
+            }
+        }
+    }
+}

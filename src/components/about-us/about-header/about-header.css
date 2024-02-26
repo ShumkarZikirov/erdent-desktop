@@ -1,0 +1,68 @@
+.aboutHeader {
+  max-width: 1176px;
+  margin: 73px auto 0;
+}
+.aboutHeader-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.aboutHeader__center {
+  background-color: #F3F4F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.aboutHeader__center h3 {
+  font-size: 36px;
+  max-width: 250px;
+  text-align: center;
+}
+.aboutHeader__center p {
+  font-size: 14px;
+  text-align: center;
+  max-width: 250px;
+  margin: 16px 0 48px;
+}
+.aboutHeader__center button {
+  width: 192px;
+  height: 48px;
+  background-color: #102231;
+  color: white;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .aboutHeader {
+    width: 90%;
+    margin: 100px auto 0;
+  }
+  .aboutHeader__center {
+    flex: 1;
+  }
+  .aboutHeader__center h3 {
+    font-size: 31px;
+  }
+  .aboutHeader__center p {
+    font-size: 11px;
+  }
+  .aboutHeader__center button {
+    font-size: 13px;
+  }
+  .aboutHeader__left {
+    flex: 1;
+  }
+  .aboutHeader__left img {
+    width: 100%;
+  }
+  .aboutHeader__right {
+    flex: 1;
+  }
+  .aboutHeader__right img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=about-header.css.map */

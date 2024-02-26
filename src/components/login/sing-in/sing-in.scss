@@ -1,0 +1,88 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    margin: 50px auto 160px;
+    &__login, &__password {
+        input {
+            width: 100%;
+            border: 1px solid #C9C9C9;
+            outline: none;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            padding-left: 14px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            margin: 7.5px 0;
+            &::placeholder{
+                font-size: 16px;
+                color: #C9C9C9;
+                font-weight: 500;
+            }
+        }
+    }
+    &__btn, &__remember{
+        justify-content: left;
+        margin-top: 22px;
+
+    }
+    &__remember{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        span {
+            margin-left: 10px;
+        }
+        input{
+            width: 18px;
+            height: 18px;
+            color: #606060;
+        }
+
+    }
+    &__forgot {
+        width: 140px;
+        margin:29px auto;
+        button{
+
+            border: none;
+            background-color: white;
+            color: #3982C1;
+            font-size: 16px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        button{
+            width: 100%;
+            height: 42px;
+            background-color: #3982C1;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:active{
+            background-color: #3c79f3;
+        }
+    }
+    &__route{
+        span{
+            font-size: 16px;
+        }
+        a{
+            color: #3982C1;
+        }
+    }
+    .logo{
+        h1{
+            font-size: 40px;
+            margin: 100px 0 68px;
+            text-align: center;
+        }
+    }
+}

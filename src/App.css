@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Nuosu+SIL&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+  background-color: rgba(240, 239, 235, 0.42);
+  background-color: white;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 1px;
+}
+
+p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 428px) {
+  .App-main {
+    max-width: 84%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .App-main {
+    max-width: 95%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

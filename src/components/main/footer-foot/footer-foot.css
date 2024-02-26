@@ -1,0 +1,25 @@
+.footerFoot .footerFoot-main {
+  max-width: 1280px;
+  margin: 26px auto 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerFoot .footerFoot-main .footerFoot-left p {
+  font-size: 14px;
+  color: #646464;
+}
+.footerFoot .footerFoot-main .footerFoot-right {
+  display: flex;
+  gap: 52px;
+  color: #646464;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 428px) {
+  .footerFoot {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=footer-foot.css.map */

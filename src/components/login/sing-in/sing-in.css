@@ -1,0 +1,81 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+  margin: 50px auto 160px;
+}
+.auth__login input, .auth__password input {
+  width: 100%;
+  border: 1px solid #C9C9C9;
+  outline: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin: 7.5px 0;
+}
+.auth__login input::placeholder, .auth__password input::placeholder {
+  font-size: 16px;
+  color: #C9C9C9;
+  font-weight: 500;
+}
+.auth__btn, .auth__remember {
+  justify-content: left;
+  margin-top: 22px;
+}
+.auth__remember {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.auth__remember span {
+  margin-left: 10px;
+}
+.auth__remember input {
+  width: 18px;
+  height: 18px;
+  color: #606060;
+}
+.auth__forgot {
+  width: 140px;
+  margin: 29px auto;
+}
+.auth__forgot button {
+  border: none;
+  background-color: white;
+  color: #3982C1;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.auth__btn {
+  display: flex;
+  align-items: center;
+}
+.auth__btn button {
+  width: 100%;
+  height: 42px;
+  background-color: #3982C1;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.auth__btn button:active {
+  background-color: #3c79f3;
+}
+.auth__route span {
+  font-size: 16px;
+}
+.auth__route a {
+  color: #3982C1;
+}
+.auth .logo h1 {
+  font-size: 40px;
+  margin: 100px 0 68px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=sing-in.css.map */
